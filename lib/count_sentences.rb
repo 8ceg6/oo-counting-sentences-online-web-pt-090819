@@ -17,7 +17,7 @@ class String
   def count_sentences
      self.split(/\.|\?|\!/).select{|s|s.length>= 2}
     
-    binding.pry
+    
   
 end 
 end
